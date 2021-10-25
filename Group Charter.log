@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.10.15)  24 OCT 2021 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.10.15)  24 OCT 2021 20:42
 entering extended mode
 **"./Group Charter.tex"
 (Group Charter.tex
@@ -160,31 +160,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--39
 [1
 
 {C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 62--80
+Underfull \hbox (badness 10000) in paragraph at lines 61--79
 
  []
 
-[2] (Group Charter.aux)
+[2
+
+] (Group Charter.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 1257 strings out of 478864
- 20638 string characters out of 2850081
- 329648 words of memory out of 3000000
- 19231 multiletter control sequences out of 15000+600000
- 404641 words of font info for 31 fonts, out of 8000000 for 9000
+ 1258 strings out of 478864
+ 20655 string characters out of 2850081
+ 328648 words of memory out of 3000000
+ 19232 multiletter control sequences out of 15000+600000
+ 404941 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,66p,445b,110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,5n,66p,444b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr17.pfb>
-Output written on "Group Charter.pdf" (2 pages, 52433 bytes).
+cm/cmr10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr17.pfb>
+Output written on "Group Charter.pdf" (2 pages, 70609 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
