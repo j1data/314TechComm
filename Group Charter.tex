@@ -1,0 +1,81 @@
+\documentclass[12pt,A4paper]{article}
+\usepackage[left=1.0in,top=0.5in,bottom=1.0in]{geometry}
+\usepackage{blindtext}
+\usepackage{sectsty}
+\sectionfont{\fontsize{13}{15}\selectfont}
+\makeatletter
+\renewcommand{\@seccntformat}[1]{%
+	\ifcsname prefix@#1\endcsname
+	\csname prefix@#1\endcsname
+	\else
+	\csname the#1\endcsname\quad
+	\fi}
+% define \prefix@section
+\newcommand\prefix@section{}
+\newcommand{\prefix@subsection}{\thesubsection\ - }
+\newcommand{\prefix@subsubsection}{\thesubsubsection\ - }
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\makeatother
+
+\begin{document}
+	\begin{center}
+		\Large
+		Group Charter \\
+		\vspace{.25 in}
+		\normalsize
+		Group A - Carson Wille, Garrett Fields, Gavin Hamilton, Justin Pullman
+	\end{center}
+\section{The following defines a successful project:}
+	A successful project means that every member is proud of putting their name on the project and turning it in. It means that every member has contributed equally and given their best effort to completing their portion. 
+	
+\section{These are group A's measurable goals:}
+	The measurable goals of group A are meeting all individual and group deadlines pre-outlined at the start of the project, scheduling at least one review session to get the advice of the professor, and ultimatly getting a grade of 85 percent or greater.
+	
+\section{The expectations of each member for this project are:}
+	Carson Wille - To make personal contributions to the project and have meaningful revisions and peer reviewed with the professor. I would like to see my group members all make meaningful contributions and that together we can have a great project dynamic. \\
+	Justin Pullman - I would like to see all members of the group treat the assignment as if they are proud of their contributions and are striving to make the overall project better.  As well as putting forth effort as if this assignment determined if they pass or fail the class. I personally will be treating this assignment with the utmost importance and putting my best effort and foot forward. \\
+	Garrett Fields - I would like to have all our deadlines met on time. Personally I want to make sure every piece of work I submit is quality work that is worthy of a good grade. I also want to continue to work on the soft skills and teamwork that comes from working in new groups like this. \\
+	Gavin Hamilton - I would like to see our group collaborate with our best effort to ensure we do well on this project. Doing well has always been a top priority for me, so I’m excited to see how our 314 group will continue with that attitude. \\
+	
+\section{Each member of Group A will invest this much effort into the project:}
+	The members agree to aim for equal investment of time and effort
+	Aiming for equal investment of time and effort into each portion of the project. 
+	Depending on the efficiency of brainstorming and/or writing, two to four hours a week put into reaching the deadlines. This looks like utilizing the class time given to us for group work, and some individual work or meetings outside of class. 
+	
+\section{The factors that may affect the performance of the project are listed here:}
+	Time conflicts for meeting
+	General disagreements of how to approach tasks.
+	Usability conflicts(Not being able to simultaneously work on the same document)
+	Software issues (programs not working exactly how they should be or how we want them to.)
+	
+\section{The group will resolve conflicts using the following guidelines:}
+	Taking the time during sit down meetings to talk face to face about issues. If the situation continues to worsen after the sit down resolution we will involve the professor.
+	Work in a shared document \& then convert the final draft into LaTex for proper formatting.
+	
+\section{The group will handle individual missed deadlines by doing the following:}
+	Filling members in on what they missed and addressing the issue head-on. We expect work to be made up in their free time in addition to working towards the next deadline to stay on track.
+	
+\section{The team will handle poor-quality contributions by doing the following:}
+	Let the member know that their work is lacking quality and let them know how to improve the quality of their work. If the problem persists we will figure out how to resolve the issue through mediation or involving the instructor. The member who has poor-quality contribution will also see a poor team evaluation score at the end of the project if the issues are not resolved through mediation efforts.
+	
+\section{The schedule of tasks and the respective deadlines are outlined below:}
+	Team Charter -OCT 24 \\
+	Choose a Document - Tuesday OCT 26 \\
+	Setup Github Repo \& Seed LaTex Files - Oct 26 \\
+	Preparation of Testing due Oct 30 \\
+	First Draft of Letter of transmittal - Due Nov 1 \\
+	First Draft of Cover Page - Due Nov 3 \\
+	First Draft of Table of Contents - Due Nov 3 \\
+	First Draft of Introduction - Due Nov 5 \\
+	First Draft of Methods - Due Nov 8 \\
+	First Draft of Results - Due Nov 10 \\
+	First Draft of Conclusion - Due Nov 12 \\
+	First Draft of Recommendations - Due Nov 14 \\
+	First Draft of References - Due Nov 16 \\
+	Overall First Draft due Nov 17 \\
+	Revision 1 - Due Nov 23 \\
+	Revision 2 (if needed) - Due Nov 27 \\
+	Final doc due Nov 28 \\
+	Team evaluation - Due Dec 13 \\
+	
+\end{document}
