@@ -1,0 +1,29 @@
+\documentclass[12pt,A4paper]{article}
+\usepackage[left=1.0in,top=0.5in,bottom=1.0in]{geometry}
+\usepackage{blindtext}
+\usepackage{sectsty}
+\sectionfont{\fontsize{13}{15}\selectfont}
+\makeatletter
+\renewcommand{\@seccntformat}[1]{%
+	\ifcsname prefix@#1\endcsname
+	\csname prefix@#1\endcsname
+	\else
+	\csname the#1\endcsname\quad
+	\fi}
+% define \prefix@section
+\newcommand\prefix@section{}
+\newcommand{\prefix@subsection}{\thesubsection\ - }
+\newcommand{\prefix@subsubsection}{\thesubsubsection\ - }
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\makeatother
+
+\begin{document}
+\begin{center}
+	\Large
+	Group Charter \\
+	\vspace{.25 in}
+	\normalsize
+	Just Me Mwahaha
+\end{center}
+
+\end{document}
