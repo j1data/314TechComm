@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  30 NOV 2021 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  30 NOV 2021 10:41
 entering extended mode
 **./FinalDoc.tex
 (FinalDoc.tex
@@ -265,24 +265,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Ratings_of_Document.png, id=17, 582.175pt x 360.34625pt>
 File: Ratings_of_Document.png Graphic file (type png)
 <use Ratings_of_Document.png>
-Package pdftex.def Info: Ratings_of_Document.png  used on input line 86.
-(pdftex.def)             Requested size: 224.93991pt x 139.22585pt.
-
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.87 	\end{figure}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3 <./Ratings_of_Document.png>]
+Package pdftex.def Info: Ratings_of_Document.png  used on input line 88.
+(pdftex.def)             Requested size: 292.41913pt x 180.99744pt.
+ [2] [3 <./Ratings_of_Document.png>]
 Overfull \hbox (172.22021pt too wide) in paragraph at lines 98--101
 \OT1/cmr/m/n/12 \How to Change a Flat Tire." Bridge-stone Tires, 29 Nov. 2021, 
 https://www.bridgestonetire.com/learn/maintenance/how-
@@ -307,7 +292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--101
 Here is how much of TeX's memory you used:
  3466 strings out of 478893
  59244 string characters out of 2849020
- 367453 words of memory out of 3000000
+ 365453 words of memory out of 3000000
  21336 multiletter control sequences out of 15000+600000
  408291 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -319,7 +304,7 @@ grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/j1dat/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
 /j1dat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
 fb>
-Output written on FinalDoc.pdf (6 pages, 155049 bytes).
+Output written on FinalDoc.pdf (6 pages, 155088 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
