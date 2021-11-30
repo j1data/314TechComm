@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.10.15)  30 NOV 2021 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.10.15)  30 NOV 2021 16:03
 entering extended mode
 **c:/Users/PC/Documents/314TechComm/FinalDoc.tex
 (c:/Users/PC/Documents/314TechComm/FinalDoc.tex
@@ -299,33 +299,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [1
 
-]
-<Ratings_of_Document.png, id=19, 582.175pt x 360.34625pt>
+] [2]
+<Ratings_of_Document.png, id=22, 582.175pt x 360.34625pt>
 File: Ratings_of_Document.png Graphic file (type png)
 <use Ratings_of_Document.png>
-Package pdftex.def Info: Ratings_of_Document.png  used on input line 105.
+Package pdftex.def Info: Ratings_of_Document.png  used on input line 106.
 (pdftex.def)             Requested size: 305.33789pt x 188.99767pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] [3 <./Ratings_of_Document.png>]
-Overfull \hbox (152.34502pt too wide) in paragraph at lines 117--120
-\OT1/cmr/m/n/12 \How to Change a Flat Tire." Bridge-stone Tires, 29 Nov. 2021, https://www.bridgestonetire.com/learn/maintenance/how-
+ [3 <./Ratings_of_Document.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
+\OT1/cmr/m/n/12 \How to Change a Flat Tire." Bridge-stone Tires, 29 Nov. 2021,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--120
+Underfull \hbox (badness 1033) in paragraph at lines 120--123
+\OT1/cmr/m/n/12 \How to Change a Tire." Wik-i-How, Wik-i-How, https://www.wikihow.com/Change-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
@@ -333,13 +334,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--120
 Here is how much of TeX's memory you used:
  4705 strings out of 478864
  78711 string characters out of 2850081
- 407744 words of memory out of 3000000
+ 405744 words of memory out of 3000000
  22570 multiletter control sequences out of 15000+600000
  408291 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,7n,79p,2410b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on FinalDoc.pdf (7 pages, 142699 bytes).
+Output written on FinalDoc.pdf (7 pages, 144322 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
