@@ -1,10 +1,11 @@
 \documentclass[12pt,A4paper]{article}
-\usepackage[left=1.0in,top=1.0in,bottom=1.0in]{geometry}
+\usepackage[left=1.0in,top=1.0in,bottom=1.0in,right=1.0in]{geometry}
 \usepackage{blindtext}
 \usepackage{sectsty}
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{subfig}
+\usepackage[english]{babel}
 \sectionfont{\fontsize{12}{15}\selectfont}
 \subsectionfont{\fontsize{10}{15}\selectfont}
 \makeatletter
@@ -14,6 +15,10 @@
 	\else
 	\csname the#1\endcsname\quad
 	\fi}
+\addto\captionsenglish{
+\renewcommand{\contentsname}
+	{Table of Contents}
+}
 % define \prefix@section
 \newcommand\prefix@section{}
 \newcommand{\prefix@subsection}{}
@@ -22,6 +27,14 @@
 \makeatother
 
 \begin{document}
+	\noindent
+	Professor Spears, \\ \\
+	\noindent
+	Within the usability report of the Bridgestone tire changing guide you will find information breaking down the usefulness and purpose of the instructions provided by Bridgestone. Different methods were used when analyzing the document. A conclusion was found from the data collected.\\ 
+	\\Our analysis included first looking over the document ourselves and giving our thoughts on the material provided. We used our insites to make decisions on how more information about the instructions would be collected. Interviews were conducted on eight different individuals, half having knowledge of changing tires and half that have never changed a tire before. These interviews provided insight on how useful, organized, and understanding the instructions were. It also allowed me to pin the intended audience. Knowing the intended audience gave information on who the document should be improved for. Two other instructions were found and each team member looked through and compared to the Bridgestone guide. Giving further insight on how the instructions could be improved.\\ 
+	\\Any information regarding how data was tracked or findings from our information can be found in the document. The report goes over the entire process in detail, including our methods and resources.\\ \\Sincerely,\\ Group A
+	\thispagestyle{empty}
+	\clearpage
 	\thispagestyle{empty}
 	\begin{center}
 		\Huge
@@ -34,24 +47,28 @@
 		\begin{figure}[!h]
 			\centering
 			\vspace{0.5 in}
-			\subfloat[Bridgestone Logo]{\includegraphics[width=0.5\textwidth]{logo.jpg}\label{fig:f1}}
+			\includegraphics[width=0.5\textwidth]{logo.jpg}
+			\label{fig:f1}
+			\caption{Bridgstone Logo}
 		\end{figure}
 		\vspace*{\fill}
 		\section{Abstract}
 	\end{center}
+	\pagenumbering{roman}
 	The Bridgestone tire change guide has incredible detail and is good at painting a picture of what needs to be done. However it is lacking in its abundance of pictures. This was confusing for some who had trouble picturing in their head what needed to be done. To assess this document we interviewed 8 subjects about their experience with the tire change guide. We asked them a series of questions assessing the qualitative properties of the document. We found many had around 60-70 percent retention rate when asked to describe how to change a tire after reading the document, and the subjects rated the website in aesthetics, how well the information was conveyed, and the overall organization of the document. On a scale of one to five the subjects gave the document an average rating of 4 for aesthetics, a 4.6 for conveyance of information, and a 4.75 for the organization of the document. We also compared the document with similar guides that come up when searching for a tire change guide, and the main differences were that the other websites had much more photos and one had videos that had step by step instructions.
 	
 	\clearpage
-	\pagenumbering{roman}
+	
 	\setcounter{page}{2}
 	
-
 	\tableofcontents
+
+	
+	\renewcommand\listfigurename{List of Illustrations}
+	\listoffigures
+
 	\clearpage
 	\pagenumbering{arabic}
-
-	\section{List of Illustrations}
-
 	\section{Executive Summary}
 
 	\section{Introduction}
@@ -85,14 +102,16 @@
 	\section{Results}
 	\begin{figure}[!h]
 		\centering
-		\subfloat[Ratings of the Document]{\includegraphics[width=0.65\textwidth]{Ratings_of_Document.png}}\label{fig:f2}
+		\includegraphics[width=0.65\textwidth]{Ratings_of_Document.png}
+		\label{fig:f2}
+		\caption{Ratings of the Document}
 	\end{figure}
 	Across the eight subjects we tested, four of them had changed a tire, and four of them had not. The first task, of navigating to the website, had some mixed results. Six of the subjects were able to find the website no problem, and two of the subjects needed a few tries and/or some guidance to get to the right website. For some search engines the Bridgstone website would not appear on the main page and the subject would need to scroll down. After the subjects read through the document, they were asked to rate various aspects of the website. A 1 is a very poor score, and a 5 is an excellent score. On overall aesthetics we had an average score of 4. For overall comprehension/clarity of the website there was an average score of 4.6. The clarity depended on whether the subject had experience changing a tire. Among the subjects who had changed a tire previously, there was a clarity rating of 5. And among those who had not changed a tire the clarity rating was a 4.25. The overall organization of the document was rated at 4.75. This rating was also split amongst those who had experience and those who had no experience. The ratings respectively were 5 and 4.5. When asked if there were any clarity issues our subjects responded that for the most part they understood what the author was trying to convey. One of our subjects had some trouble with the jargon, some of the parts were foreign names to them. And one of our subjects was confused by the required and optional parts. The optional parts were used in the instructions and were taken to mean that they weren’t really optional. We took the document away and asked the subjects to write down as many steps as they could remember in order, and found that on average they remembered 70\% of the steps. The standard deviation of the retention levels is 11.6\% with our range being from 61\% to 89\% retention. As we compared the documents to both the Home Depot and WikiHow site, many of us had drawn the same conclusion. The Bridgestone site has great information but lacks any visuals which can be confusing for readers inexperienced with cars. Both Home Depot and Wikihow included pictures with each step to show roughly what was happening whereas Bridgestone just had a large wall of text which can be hard for readers to understand, or in some cases even bore the reader.
 
 	\section{Conclusions}
 
 	\section{Recommendations}
-	The main issue with Bridgestone’s How to Change a Tire webpage is the lack of visuals. The information presented is very thorough, but the lack of a visual for people unfamiliar with cars can leave readers confused. The data is also presented as a wall of text, visuals could be used to help break this up to make the website more appealing to a reader rather than just looking at a giant block of information. More specifically Bridgestone should include a picture of what is being done for each step so readers can use the detailed text to the best of their ability and then reference the visuals when there is any confusion. This one simple change would greatly increase the usability of this website. 
+	The main issue with Bridgestone’s How to Change a Tire webpage is the lack of visuals. The information presented is very thorough, but the lack of a visual for people unfamiliar with cars can leave readers confused. The data is also presented as a wall of text, visuals could be used to help break this up to make the website more appealing to a reader rather than just looking at a giant block of information. More specifically Bridgestone should include a picture of what is being done for each step so readers can use the detailed text to the best of their ability and then reference the visuals when there is any confusion. As mentioned in the results one subject did not understand what a lug nut was, a visual of what was being done on the tire could have easily resolved the reader's confusion. This one simple change would greatly increase the usability of this website. 
 
 	\section{References}
 	“How to Change a Flat Tire.” Bridgestone Tires, 29 Nov. 2021, https://www.bridgestonetire.com/learn/maintenance/how-to-change-a-flat-tire/.\\ \\
