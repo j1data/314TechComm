@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1638312172 "c:/Users/PC/Documents/314TechComm/FinalDoc.tex" "FinalDoc.pdf" "FinalDoc" 1638312174
+["pdflatex"] 1638330717 "c:/Users/PC/Documents/314TechComm/FinalDoc.tex" "FinalDoc.pdf" "FinalDoc" 1638330718
   "C:/Users/PC/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1634342399 9741430 7ec6ee6b4d68602c230697793c249ffd ""
   "C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1638123218 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -52,12 +52,12 @@
   "C:/Users/PC/AppData/Local/Programs/MiKTeX/tex/latex/sectsty/sectsty.sty" 1469025625 23038 d476012cd03f82f9475ad54ba6cd3267 ""
   "C:/Users/PC/AppData/Local/Programs/MiKTeX/tex/latex/subfig/subfig.sty" 1121302610 22049 9ef165ca6df8815c92e693146a376c92 ""
   "C:/Users/PC/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1622546726 4545 d84d0b20a11b9c36c6ecf45697be591c ""
-  "FinalDoc.aux" 1638312174 2178 fd29facdd7abb0fab51b65cd13dc9405 "pdflatex"
-  "FinalDoc.lof" 1638312174 199 7833b4d61293e1692fb2f70e3d6b63a2 "pdflatex"
-  "FinalDoc.tex" 1638312171 13642 bc9590bc441da82fdd91d9a430f4a04d ""
-  "FinalDoc.toc" 1638312174 978 21892f8d840615987513aeb3bcf0f52d "pdflatex"
+  "FinalDoc.aux" 1638330718 2178 fd29facdd7abb0fab51b65cd13dc9405 "pdflatex"
+  "FinalDoc.lof" 1638330718 199 7833b4d61293e1692fb2f70e3d6b63a2 "pdflatex"
+  "FinalDoc.tex" 1638330715 13841 486da7a0d44f0e24f70a36cd99ca9414 ""
+  "FinalDoc.toc" 1638330718 978 21892f8d840615987513aeb3bcf0f52d "pdflatex"
   "Ratings_of_Document.png" 1638291166 14774 ea5ba6e9314dece76adfc73ad825ef9d ""
-  "c:/Users/PC/Documents/314TechComm/FinalDoc.tex" 1638312171 13642 bc9590bc441da82fdd91d9a430f4a04d ""
+  "c:/Users/PC/Documents/314TechComm/FinalDoc.tex" 1638330715 13841 486da7a0d44f0e24f70a36cd99ca9414 ""
   "logo.jpg" 1638291166 50729 6a70f416733ec5491536ffaf471020f9 ""
   (generated)
   "FinalDoc.aux"
